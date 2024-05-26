@@ -54,7 +54,6 @@ def delete_mutiple():
         my_listbox.delete(item)
     my_label.config(text='')
 
-
 delete_button = Button(root, text="Delete", command=delete)
 delete_button.pack(pady=10)
 
