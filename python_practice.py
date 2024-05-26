@@ -4,7 +4,7 @@ root = Tk()
 root.title("practice")
 root.geometry("400x1000")
 
-
+"test 2"
 
 #frame
 my_frame = Frame(root)
