@@ -20,8 +20,6 @@ my_scrollbar.config(command=my_listbox.yview)
 my_scrollbar.pack(side=RIGHT, fill=Y)
 my_listbox.pack(pady=10)
 
-
-
 #Add item to listbox
 my_listbox.insert(END, "this is the first item")
 my_listbox.insert(END, "this is the second item")
