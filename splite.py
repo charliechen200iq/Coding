@@ -11,6 +11,7 @@ customer (first_name text, last_name text, email text)"""
 
 cursor.execute(command1)
 
+cursor.execute('DELETE FROM customer;')
 
 
 cursor.execute("INSERT INTO customer VALUES ('James', 'Toptun', 'jamestoptun@macleans.school.nz')")
